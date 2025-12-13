@@ -1,49 +1,82 @@
-# Portfolio-
-         I am a passionate Front‑End Web Developer with a strong foundation in building responsive, user‑friendly websites. I trained through freeCodeCamp and Codecademy, where I gained hands‑on experience in modern web technologies and best practices. I enjoy turning ideas into clean, functional, and visually appealing web interfaces.
-
-  About Me.
-  
-     I am Jesse kiplangat a self‑motivated front‑end developer who enjoys continuous learning and problem‑solving. Through online platforms like freeCodeCamp and Codecademy, I have built practical projects that strengthened my understanding of real‑world web development. I am eager to collaborate, grow professionally, and contribute to impactful digital products.
-
-Skills
- Frontend Technologies
-
-    HTML5
-
-CSS3
-
-Frameworks & Tools
-
-Responsive Design
-
-Flexbox & CSS Grid
-
-Git & GitHub
-
-VS Code
-
-Other Skills
-
-      Website Optimization
-
-Cross‑Browser Compatibility
-
-UI/UX Basics
-
-Projects
-
-     1. Personal Portfolio Website
-
-A responsive personal portfolio showcasing my skills and projects.
-
-Built with HTML, CSS, and JavaScript.
-
-Education & Training
-
-     freeCodeCamp – Front‑End Development (Responsive Web Design, JavaScript)
-
-Codecademy – Web Development & Front‑End Career Path.
-
-Contact 
-
-    Email: jessekiplangat06@gmail.com
+<!-- ======================
+JESSE KIPLANGAT PORTFOLIO
+Multipage • Responsive • Front-End
+Files included below:
+1. index.html (Home)
+2. about.html (About)
+3. projects.html (Projects)
+4. contact.html (Contact)
+5. style.css (Shared styles)
+====================== --><!-- ======================
+index.html
+====================== --><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jesse Kiplangat | Front-End Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Jesse Kiplangat</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>  <section class="hero">
+    <h2>Front-End Web Developer</h2>
+    <p>I build responsive, clean and user-friendly websites.</p>
+    <a class="btn" href="projects.html">View My Work</a>
+  </section>  <footer class="footer">© 2025 Jesse Kiplangat</footer>
+</body>
+</html><!-- ======================
+about.html
+====================== --><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Jesse Kiplangat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>About Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>  <section class="content">
+    <p>I am a passionate front-end developer trained at <strong>freeCodeCamp</strong> and <strong>Codecademy</strong>. I specialize in HTML, CSS, and JavaScript, focusing on responsive and accessible web design.</p>
+  </section>  <footer class="footer">© 2025 Jesse Kiplangat</footer>
+</body>
+</html><!-- ======================
+projects.html
+====================== --><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Jesse Kiplangat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Projects</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>  <section class="grid">
+    <div class="card">Portfolio Website</div>
+    <div class="card">Responsive Landing Page</div>
+    <div class="card">JavaScript Interactive App</div>
+  </section>  <footer class="footer">© 2025 Jesse Kiplangat</footer>
+</body>
+</html><!-- ======================
+contact.html
+====================== --><!
