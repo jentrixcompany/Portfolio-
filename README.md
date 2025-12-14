@@ -54,4 +54,3 @@
 </section><footer class="footer">
   <p>© 2025 Jesse Kiplangat. All Rights Reserved.</p>
 </footer></body>
-</html>
